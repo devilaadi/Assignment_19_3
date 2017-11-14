@@ -1,0 +1,7 @@
+val df =sqlContext.range(1,100)
+
+df.write.parquet("file:///home/cloudera/Desktop/Acadgild/Assignment_19/Result.parquet")
+
+
+
+
